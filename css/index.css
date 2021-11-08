@@ -246,6 +246,11 @@
     text-indent: 20px;
 }
 
+.menu .sideMenu ul li a{
+	color:black;
+	text-decoration:none;
+	}
+
 .menu .sideMenu ul li:hover {
     background-color: #fff;
 }
@@ -271,18 +276,19 @@
     text-decoration: none;
 }
 
-.menu .sideMenu ul li .subMenu {
-    position: absolute;
-    left: 198px;
-    top: 0;
-    border: 2px solid #ff6700;
-    width: 500px;
-    height: 426px;
-    display: none;
-}
 
 .menu .sideMenu ul li:hover .subMenu {
     display: block;
+}
+
+.menu .sideMenu ul li .subMenu {
+	position:absolute;
+	top:0px;
+	left:198px;
+	border:2px solid #ff6700;
+	width:500px;
+	height:426px;
+	display:none;	
 }
 
 .menu .banner {
